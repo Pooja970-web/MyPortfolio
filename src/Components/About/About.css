@@ -22,6 +22,26 @@
   z-index: -1;
 }
 
+/* Center About title and decorative image */
+.about-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.about-title h1{
+  text-align: center;
+  margin: 0 auto;
+}
+.about-title img{
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 0;
+}
+
 .about-sections{
   display: flex;
   gap: 80px;
@@ -81,7 +101,7 @@
   height: 8px;
   border-radius: 50px;
   border: none;
-  background:linear-gradient(270deg,#DF8908,#B415FF);
+  background:linear-gradient(90deg, #ec4899, #3b82f6);
 }
 
 .about-skill:hover{
@@ -104,10 +124,23 @@
   transition: 0.5s;
 }
 
+.about-achievements hr{
+  width: 1px;
+  height: 140px;
+  border: none;
+  background: rgba(255,255,255,0.12);
+  margin: 0 30px;
+  align-self: center;
+}
+
+.about-achievement{
+  padding: 0 20px;
+}
+
 .about-achievement h1{
   font-size: 60px;
   font-weight: 700;
-  background: linear-gradient(270deg,#DF8908,#B415FF);
+  background: linear-gradient(90deg, #ec4899, #3b82f6);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -158,17 +191,40 @@ font-size: 20px;
 }
 .about-achievements{
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.about-achievements hr{
+  display: none;
 }
 .about-achievement{
   gap: 10px;
 }
+.about-achievement{
+  padding: 0 10px;
+}
 .about-achievement h1{
-  font-size: 34px;
-  font-weight: 700px;
+  font-size: 34px !important;
+  font-weight: 700;
+  line-height: 1.1 !important;
 }
 .about-achievement p{
   text-align: center;
   font-size: 16px;
 }
+  /* Force stacked layout and small headings on narrow screens to prevent overlap */
+  .about-achievements{
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    max-width: none !important;
+    margin: 40px 20px !important;
+  }
+  .about-achievement{
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 10px 0 !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
 }
   
