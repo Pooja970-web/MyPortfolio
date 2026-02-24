@@ -3,14 +3,14 @@
 A modern, responsive personal portfolio website built using **React** to showcase my skills, projects, and hands-on frontend development experience.
 
 🔗 **Live Demo:** https://your-live-link.vercel.app  
-🔗 **GitHub Repository:
+🔗 **GitHub Repository:** https://github.com/your-username/portfolio-react  
 
 ---
 
 ## 📸 Preview
 
 ### 🖥 Hero Section
-(Add hero screenshot here)
+
 
 ### 💻 Skills Section
 (Add skills screenshot here)
@@ -42,7 +42,7 @@ The project focuses on:
 - HTML5
 - CSS3
 - Flexbox & Grid
-
+- Bootstrap
 
 **Tools**
 - Git & GitHub
@@ -68,12 +68,14 @@ The project focuses on:
 A dynamic news web application built using React and NewsData.io API.
 
 ### Features:
+- Category-based news filtering
+- Real-time API data fetching
 - Loading spinner & error handling
 - Responsive layout using Bootstrap
 - React Hooks (useState, useEffect)
 
 ### Tech Used:
-React, JavaScript (ES6)
+React, JavaScript (ES6), Bootstrap, NewsData API
 
 ---
 
@@ -124,9 +126,10 @@ portfolio-react/
 ## 🎯 What This Project Demonstrates
 
 - Strong understanding of React fundamentals
+- Working knowledge of API integration
 - Ability to build responsive UI
 - Clean code practices
-
+- Real-world project development experience
 
 ---
 
