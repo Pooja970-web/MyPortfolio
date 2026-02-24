@@ -10,7 +10,7 @@ A modern, responsive personal portfolio website built using **React** to showcas
 ## 📸 Preview
 
 ### 🖥 Hero Section
-
+<img src=".assets/Hero_section.png>
 
 ### 💻 Skills Section
 (Add skills screenshot here)
