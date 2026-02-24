@@ -1,16 +1,146 @@
-# React + Vite
+# 💼 Pooja Kushawaha – Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built using **React** to showcase my skills, projects, and hands-on frontend development experience.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://your-live-link.vercel.app  
+🔗 **GitHub Repository:** https://github.com/your-username/portfolio-react  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🖥 Hero Section
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💻 Skills Section
+(Add skills screenshot here)
+
+### 📰 Featured Project – NewsMag
+(Add project screenshot here)
+
+---
+
+## 👩‍💻 About The Project
+
+This portfolio website represents my frontend development journey.  
+It demonstrates my ability to build responsive, component-based applications using modern JavaScript and React.
+
+The project focuses on:
+- Clean UI/UX design
+- Responsive layouts
+- Reusable components
+- API integration
+- Performance optimization
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+- React JS
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Flexbox & Grid
+- Bootstrap
+
+**Tools**
+- Git & GitHub
+- Vite
+- VS Code
+
+---
+
+## ✨ Key Features
+
+✔ Fully responsive design (Mobile, Tablet, Desktop)  
+✔ Modern dark UI with gradient styling  
+✔ Component-based architecture  
+✔ Dynamic project showcase  
+✔ REST API integration  
+✔ Loading & error handling  
+✔ Clean and maintainable folder structure  
+
+---
+
+## 📌 Highlighted Project – NewsMag (World News Web App)
+
+A dynamic news web application built using React and NewsData.io API.
+
+### Features:
+- Category-based news filtering
+- Real-time API data fetching
+- Loading spinner & error handling
+- Responsive layout using Bootstrap
+- React Hooks (useState, useEffect)
+
+### Tech Used:
+React, JavaScript (ES6), Bootstrap, NewsData API
+
+---
+
+## ⚙ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/portfolio-react.git
+```
+
+Navigate into the folder:
+
+```bash
+cd portfolio-react
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+
+```
+portfolio-react/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── App.jsx
+│── public/
+│── package.json
+│── README.md
+```
+
+---
+
+## 🎯 What This Project Demonstrates
+
+- Strong understanding of React fundamentals
+- Working knowledge of API integration
+- Ability to build responsive UI
+- Clean code practices
+- Real-world project development experience
+
+---
+
+## 📬 Contact
+
+📧 Email: your-email@gmail.com  
+💼 LinkedIn: https://linkedin.com/in/your-profile  
+🌐 Portfolio: https://your-live-link.vercel.app  
+
+---
+
+⭐ I am actively seeking internship and entry-level frontend developer opportunities.
+
+If you like this project, feel free to ⭐ the repository!
