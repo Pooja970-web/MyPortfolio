@@ -63,6 +63,12 @@
   display: block;
 }
 
+.about-left img:hover{
+  transform: scale(1.05);
+   transition: 0.5s;
+    border: 2px solid rgb(14, 108, 127);
+}
+
 .about-right{
   display: flex;
   flex-direction: column;
@@ -154,6 +160,7 @@
 .about-achievement:hover{
   transform: scale(1.12);
   transition: 0.5s;
+  border-color: blanchedalmond;
 }
 @media(max-width:768px){
   .about{

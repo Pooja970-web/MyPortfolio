@@ -13,6 +13,13 @@
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
   cursor:pointer;
 }
+  .hero img:hover{
+     transform: scale(1.05);
+   transition: 0.5s;
+    border: 2px solid rgb(223, 31, 237);
+
+  }
+
 .hero h1{
   text-align: center;
   width: 70%;

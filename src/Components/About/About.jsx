@@ -43,20 +43,20 @@ Currently, I am looking for opportunities where I can contribute and grow as a f
 
             <div className="about-skill">
               <p>JavaScript</p>
-              <hr style={{ width: "60%" }} />
+              <hr style={{ width: "40%" }} />
             </div>
 
             <div className="about-skill">
               <p>Next JS</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "40%" }} />
             </div>
             <div className="about-skill">
               <p>Java</p>
-              <hr style={{ width: "60%" }} />
+              <hr style={{ width: "40%" }} />
             </div>
             <div className="about-skill">
               <p>MySQL</p>
-              <hr style={{ width: "60%" }} />
+              <hr style={{ width: "40%" }} />
             </div>
           </div>
         </div>
