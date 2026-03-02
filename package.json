@@ -1,4 +1,6 @@
-{
+git add netlify.toml
+git commit -m "Add netlify configuration"
+git push{
   "name": "portfolio-react",
   "private": true,
   "version": "0.0.0",
