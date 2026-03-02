@@ -2,8 +2,8 @@
 
 A modern, responsive personal portfolio website built using **React** to showcase my skills, projects, and hands-on frontend development experience.
 
-🔗 **Live Demo:** https://your-live-link.vercel.app  
-🔗 **GitHub Repository:** https://github.com/your-username/portfolio-react  
+🔗 **Live Demo:** https://poojakushwaha.netlify.app 
+
 
 ---
 
