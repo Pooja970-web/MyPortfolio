@@ -10,11 +10,11 @@ A modern, responsive personal portfolio website built using **React** to showcas
 ## 📸 Preview
 
 ### 🖥 Hero Section
-<img src="assets/Hero_section.png>
+<img src="assets/Hero_section.png">
 
 ### 💻 Skills Section
-<img src="assets/Myskills.png>
-<img src="assets/Myskills2.png>
+<img src="assets/Myskills.png">
+<img src="assets/Myskills2.png">
 
 ### 📰 Featured Project – NewsMag
 (Add project screenshot here)
