@@ -135,10 +135,8 @@ portfolio-react/
 ---
 
 ## 📬 Contact
-
-📧 Email: your-email@gmail.com  
 💼 LinkedIn: https://linkedin.com/in/your-profile  
-🌐 Portfolio: https://your-live-link.vercel.app  
+🌐 Portfolio:https://poojakushwaha.netlify.app 
 
 ---
 
