@@ -1,4 +1,4 @@
-# 💼 Pooja Kushawaha – Frontend Developer Portfolio
+# 💼 Pooja Kushawaha – Portfolio
 
 A modern, responsive personal portfolio website built using **React** to showcase my skills, projects, and hands-on frontend development experience.
 
