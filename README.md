@@ -4,23 +4,6 @@ A modern, responsive personal portfolio website built using **React** to showcas
 
 🔗 **Live Demo:** https://poojakushwaha.netlify.app 
 
-
----
-
-## 📸 Preview
-
-### 🖥 Hero Section
-<img src="assets/Hero_section.png">
-
-### 💻 Skills Section
-<img src="assets/Myskills.png">
-<img src="assets/Myskills2.png">
-
-### 📰 Featured Project – NewsMag
-(Add project screenshot here)
-
----
-
 ## 👩‍💻 About The Project
 
 This portfolio website represents my frontend development journey.  
@@ -135,7 +118,7 @@ portfolio-react/
 ---
 
 ## 📬 Contact
-💼 LinkedIn: https://linkedin.com/in/your-profile  
+💼 LinkedIn: https://linkedin.com/in/pooja-kushawaha
 🌐 Portfolio:https://poojakushwaha.netlify.app 
 
 ---
