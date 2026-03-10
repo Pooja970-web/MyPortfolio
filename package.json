@@ -1,6 +1,4 @@
-git add netlify.toml
-git commit -m "Add netlify configuration"
-git push{
+{
   "name": "portfolio-react",
   "private": true,
   "version": "0.0.0",
@@ -8,8 +6,8 @@ git push{
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^19.2.0",

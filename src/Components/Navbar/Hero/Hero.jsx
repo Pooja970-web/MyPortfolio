@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
       <img src={profile_img} alt="" />
-      <h1>I'am Pooja Kushawaha,fronted developer based in India.</h1>
+      <h1>I'am Pooja Kushawaha</h1>
      <p>Frontend Developer focused on building modern, responsive, and performance-driven web applications using React.
 </p>
 

@@ -5,22 +5,36 @@
   justify-content: center;
   gap:80px;
   margin: 80px 170px;
-  
 }
+
 .services-title{
   position: relative;
 }
+
 .services-title h1{
   padding: 0 30px;
   font-size: 80px;
   font-weight: 600;
 }
+
 .services-title img{
   position: absolute;
   bottom:0;
   right:0;
   z-index:-1;
 }
+
+/* SERVICES GRID */
+
+.services-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom:80px;
+}
+
+/* CARD */
+
 .services-format{
   display: flex;
   gap: 20px;
@@ -32,75 +46,86 @@
   transition: 0.4s;
   cursor: pointer;
 }
-.services-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
-  margin-bottom:80px;
- }
- .services-format h3{
+
+.services-format h3{
   font-size:28px;
-  font-weight:600px;
- }
- .services-format h2{
+  font-weight:600;
+}
+
+.services-format h2{
   font-size:38px;
   font-weight:800;
   background:linear-gradient(90deg, #ec4899, #3b82f6);
   background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;}
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .services-format p{
   color: #d4d4d4;
   font-size: 24px;
   line-height: 40px;
   max-width: 300px;
 }
-   .services-format:hover{
-    border:2px solid#ff00ff;
-    background-image: linear-gradient(90deg, #ec4899, #3b82f6);
-    transform: scale(1.05);
-    transition: 0.4s;
-   }
-   @media(
-    max-width:768px
-   ){
-    .services{
-        align-items: center;
-      gap: 70px;
-      margin:20px 70px ;
-    }
-    .services-title h1{
-padding:0;
-font-size: 50px;
-    }
-      .services-title{
-        width:100%;
-        display:flex;
-        justify-content:center;
-        position:relative;
-      }
-      .services-title img{
-        width: 130px;
-        left: 50%;
-        right: auto;
-        transform: translateX(-50%);
-        position: absolute;
-        bottom: 0;
-      }
-    .services-format{
-      gap: 20px;
-      padding: 32px;
-    }
-    .services-format h2{
-      font-size:28px ;
-    }
-    .services-format p{
-      font-size: 18px;
-      line-height: 32px;
-      max-width: 300px;
-    }
-    .services-container{
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-    }
-   }
+
+.services-format:hover{
+  border:2px solid #ff00ff;
+  background-image: linear-gradient(90deg, #ec4899, #3b82f6);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width:768px){
+
+.services{
+  align-items: center;
+  gap: 70px;
+  margin:20px 30px;
+}
+
+.services-title h1{
+  padding:0;
+  font-size: 50px;
+}
+
+.services-title{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  position:relative;
+}
+
+.services-title img{
+  width: 130px;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 0;
+}
+
+.services-format{
+  gap: 20px;
+  padding: 32px;
+}
+
+.services-format h2{
+  font-size:28px;
+}
+
+.services-format p{
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 100%;
+}
+
+/* ⭐ SINGLE CARD ON MOBILE */
+
+.services-container{
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+}

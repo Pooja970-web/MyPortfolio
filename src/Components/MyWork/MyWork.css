@@ -1,3 +1,9 @@
+/* GLOBAL FIX */
+*{
+  box-sizing: border-box;
+}
+
+/* ===== SECTION ===== */
 .mywork {
   display: flex;
   flex-direction: column;
@@ -27,13 +33,15 @@
 /* ===== CONTAINER ===== */
 .mywork-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   width: 100%;
 }
 
 /* ===== CARD ===== */
 .mywork-card {
+  width: 100%;
+  max-width: 100%;
   background: #1e1e24;
   border: 2px solid #2a2a33;
   border-radius: 16px;
@@ -49,7 +57,6 @@
 /* ===== IMAGE ===== */
 .mywork-card img {
   width: 100%;
-
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 15px;
@@ -96,16 +103,17 @@
   transform: scale(1.05);
 }
 
-/* ===== MOBILE ===== */
+/* ===== MOBILE RESPONSIVE ===== */
 @media (max-width: 768px) {
+
   .mywork {
-    margin: 50px 30px;
-    gap: 50px;
-    align-items: flex-start;
+    margin: 40px 20px;
+    gap: 40px;
+    align-items: center;
   }
 
   .mywork-title h1 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 0;
   }
 
@@ -115,5 +123,7 @@
 
   .mywork-container {
     grid-template-columns: 1fr;
+    gap: 25px;
   }
+
 }
