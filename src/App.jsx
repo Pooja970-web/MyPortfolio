@@ -5,7 +5,7 @@ import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
 
 import Services from './Components/Services/Services'
-import MyWork from './Components/Mywork/Mywork.jsx'
+import MyWork from './Components/MyWork/MyWork.jsx'
 
 
 const App = () => {
@@ -23,4 +23,3 @@ const App = () => {
 }
 
 export default App
-
