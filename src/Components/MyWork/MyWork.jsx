@@ -33,15 +33,28 @@ const MyWork = () => {
               <strong>Tech:</strong> {work.tech}
             </p>
 
-            {/* GitHub Link */}
-            <a
-              href={work.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="github-link"
-            >
-              View on GitHub
-            </a>
+            {/* Links */}
+            <div className="mywork-links">
+              <a
+                href={work.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="github-link"
+              >
+                View on GitHub
+              </a>
+
+              {work.demo && (
+                <a
+                  href={work.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="github-link demo-link"
+                >
+                  Live Demo
+                </a>
+              )}
+            </div>
 
           </div>
         ))}

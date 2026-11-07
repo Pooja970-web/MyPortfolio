@@ -1,5 +1,5 @@
 import project from '../assets/project.png';
-import aiImage from '../assets/ai_image_preview.svg';
+import examAllocator from '../assets/exam_allocator.png';
 
 const mywork_data = [
   {
@@ -17,18 +17,19 @@ const mywork_data = [
     github: "https://github.com/Pooja970-web/NEWSMAG"
   },
   {
-    w_img: aiImage,
-    w_name: "AI Image Generator 🎨 Text-to-Image Web App",
+    w_img: examAllocator,
+    w_name: "Exam Seat & Invigilation Allocator 📝 Constraint-Based Scheduler",
 
     w_desc: [
-      "Generates images from text prompts in real time using the Pollinations AI API",
-      "Prompt suggestion chips, animated progress bar, and image download",
-      "Image history that saves and restores the last 8 generated images",
-      "Responsive dark neon UI built with React and Vite"
+      "Auto-generates exam seating plans and invigilator duty rosters as downloadable PDFs",
+      "Seating avoids placing same-subject students at adjacent left/front seats, using a greedy heuristic with randomized restarts",
+      "Invigilation allocation with no double-booking, max-duties cap and fair load balancing",
+      "Reports constraint violations and own-subject invigilation counts"
     ],
 
-    tech: "React, Vite, JavaScript (ES6), CSS3, Pollinations AI API",
-    github: "https://github.com/Pooja970-web/ai-imageiGenerator"
+    tech: "Node.js, Express, PDFKit, JavaScript (ES6)",
+    github: "https://github.com/Pooja970-web/exam-seat-invigilation-allocator",
+    demo: "https://exam-seat-allocator.onrender.com"
   }
 ];
 
