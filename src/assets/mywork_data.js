@@ -28,7 +28,7 @@ const mywork_data = [
     ],
 
     tech: "Node.js, Express, PDFKit, JavaScript (ES6)",
-    github: "https://github.com/Pooja970-web/exam-seat-invigilation-allocator",
+    github: "https://github.com/Pooja970-web/-Exam-seat-invigilation-allocator-",
     demo: "https://exam-seat-allocator.onrender.com"
   }
 ];
